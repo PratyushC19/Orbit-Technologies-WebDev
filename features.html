@@ -1,0 +1,164 @@
+<html>
+<head>
+    <meta charset = "utf-8" />
+    <title>Orbit Technologies</title>
+    <link rel="stylesheet" href="stylef.css">
+    <meta name="viewport"content="width=device-width, initial scale=1">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous">
+    </script>
+</head>
+<body>
+    <section id="banner">
+        <img src="images/orbit-logo+new+wite+and+blue.png" class="logo">
+        <div class="banner-text">
+            <h1>FEATURES</h1> 
+            <p>Why Choose Us</p>
+            </div>
+        </section>
+        <div id="sidenav">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">FEATURES</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="index.html">TESTIMONIAL</a></li>
+                    <li><a href="index.html">MEET US</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+        <div id="menubtn">
+            <img src="images/menu.png" id="menu">
+        </div>
+
+        <!--Feature-1-->
+        <section id="features">
+            <div class="title-text">
+                <p>FEATURES</p>
+            </div>
+        <div class="feature-box">
+            <div class="feature">
+                <h1>BEST IN CLASS SPACECRAFT</h1>
+                <div class="features-desc">
+                    <div class="feature-icon"><i class="fas fa-server"></i></div>
+                    <div class="feature-text">
+                        We Provide World 1st Advanced System To Live And Breathe With Electrolysis Technology Which Seperates Oxygen From Water Using Electricity</p>
+                    </div>
+                </div>
+                <div class="features-desc">
+                    <div class="feature-icon"><i class="fas fa-gas-pump"></i></div>
+                    <div class="feature-text">
+                        <p>We Provide The Maximum Propulsion From Our 33 Engines Of Various Sizes, Including Tanks That Can Hold Nearly 2,000 Gallons Of Propellant</p>
+                    </div>
+                </div>
+                <div class="features-desc">
+                    <div class="feature-icon"><i class="fas fa-fire"></i></div>
+                    <div class="feature-text">
+                        <p>We Have Largest Heat Shield Of It's Kind Ever Built And Will Help The Spacecraft Withstand Temperatures Around 5,000 Degrees Fahrenheit During Reentry Though Earth’s Atmosphere.</p>
+                    </div>
+                </div>
+                <div class="features-desc">
+                    <div class="feature-icon"><i class="fas fa-rss"></i></div>
+                    <div class="feature-text">
+                        <p>Our SpaceCrafts Are Equipped With Backup Communication And Navigation Systems To Help The Spacecraft Stay In Contact With The Ground And Our Command Center Itself If It’s Primary Systems Fail. </p>
+                    </div>
+                </div>
+                <div class="feature-row">
+                <div class="feature-img1">
+                    <img src="images/rocket 1.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="feature-img2">
+            <img src="images/rocket 2.jpg">
+        </div>
+    </div>
+
+    <!--Feature-2-->
+    <section id="service">
+        <div class="title-text">
+            <p>FEATURES</p>
+        </div>
+        <div class="service-box">
+            <div class="single-service">
+                <img src="images/View.jpg">
+                <div class="service-desc">
+                    <h3>VIEW OF ALL PLANETS</h3>
+                    <hr>
+                    <p>We Provide Large Service For Visiting Planets Very Far From Earth And Get You A Wondefull View Of Every Planet.
+                    </p>
+                </div>
+            </div>
+            <div class="single-service">
+                <img src="images/VR.png">
+                <div class="service-desc">
+                    <h3>VIRTUAL ENVIRONMENT</h3>
+                    <hr>
+                    <p>We Have Large Gallery Of Vr Video Based On Trip By Our Costumer For You To Expereince The Space Without Going To Space.
+                    </p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="single-service">
+                    <img src="images/rocket 3.jpg">
+                    <div class="service-desc">
+                        <h3>PRIVATE SPACESTATION</h3>
+                        <hr>
+                        <p>We Have Our Own Designed And Developed Spacestation With A Home Like Environment. Which Will Remind You Of Our Planet Earth.
+                        </p>
+                    </div>
+                </div>
+                <div class="single-service">
+                    <img src="images/study.jpg">
+                    <div class="service-desc">
+                        <h3>KNOWLEDGE LAB</h3>
+                        <hr>
+                        <p>We Provide You With Vast Knowledge Of Planets And Stars With Extensive Knowledge About Our Spacecraft.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="social-copy">
+                    <center><p>Copyright Orbit Technologies</p></center>
+                </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var menubtn = document.getElementById("menubtn")
+        var sidenav = document.getElementById("sidenav")
+        var menu = document.getElementById("menu")
+
+        sidenav.style.right = "-250px";
+
+        menubtn.onclick = function(){
+            if(sidenav.style.right == "-250px"){
+                sidenav.style.right = "0";
+                menu.src = "images/close.png";
+            }
+            else{
+                sidenav.style.right = "-250px";
+                menu.src = "images/menu.png";
+            }
+        }
+
+        var scroll = new SmoothScroll('a[href*="#"]', {
+speed: 1000,
+speedAsDuration: true
+});
+        </script>
